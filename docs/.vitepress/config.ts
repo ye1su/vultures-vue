@@ -1,35 +1,18 @@
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
+import sidebar from './config/sidebar'
+import nav from './config/navbar';
+import head from './config/head';
 
-const sidebar = {
-  '/': [
-    { text: '快速开始', link: '/' },
-    {
-      text: '通用'
-    },
-    {
-      text: '导航',
-    },
-    {
-      text: '反馈',
-    },
-    {
-      text: '数据录入',
-    },
-    {
-      text: '数据展示',
-      children: [
-        { text: 'Tree 树', link: '/components/tree/' },
-      ]
-    },
-    {
-      text: '布局',
-    },
-  ]
-}
 
 const config = {
+  title: 'iuUI',
+  description: 'A VitePress site',
+  head,
   themeConfig: {
     sidebar,
+    nav,
+    logo: '../../assets/iu.svg',
+    
   },
   markdown: {
     config: (md) => {

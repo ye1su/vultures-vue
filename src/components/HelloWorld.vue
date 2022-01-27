@@ -1,52 +1,17 @@
-<script setup lang="ts">
-import { defineComponent, ref } from 'vue'
-const data = ref([{
-  label: '一级 1', level: 1,
-  children: [{
-    label: '二级 1-1', level: 2,
-    children: [{
-      label: '三级 1-1-1', level: 3,
-    }]
-  }]
-}, {
-  label: '一级 2', level: 1,
-  open: true, // 新增
-  children: [{
-    label: '二级 2-1', level: 2,
-    children: [{
-      label: '三级 2-1-1', level: 3,
-    }]
-  }, {
-    label: '二级 2-2', level: 2,
-    children: [{
-      label: '三级 2-2-1', level: 3,
-    }]
-  }]
-}, {
-  label: '一级 3', level: 1,
-  open: true, // 新增
-  children: [{
-    label: '二级 3-1', level: 2,
-    children: [{
-      label: '三级 3-1-1', level: 3,
-    }]
-  }, {
-    label: '二级 3-2', level: 2,
-    open: true, // 新增
-    children: [{
-      label: '三级 3-2-1', level: 3,
-    }]
-  }]
-}, {
-  label: '一级 4', level: 1,
-}])
 
-</script>
 
 <template>
   <h1>iuUI</h1>
-  <d-tree :data="data"> </d-tree>
+  <i-input @onHandleChange="getChange"></i-input>
 </template>
+
+<script setup lang="ts">
+const getChange = (e:Event):void => {
+  console.log(e);
+  
+}
+</script>
+
 
 <style scoped>
 a {

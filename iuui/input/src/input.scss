@@ -1,0 +1,12 @@
+@import '../../../styles/color.scss';
+.inp{
+  outline: none;
+  width: 200px;
+  height: 30px;
+  border: 1px solid $iuColor;
+  padding: 0px 10px ;
+  
+}
+.dis{
+  cursor: not-allowed;
+}

@@ -7,7 +7,7 @@ import useToggle from './composables/use-toggle'
 import './tree.scss'
 
 export default defineComponent({
-  name: 'DTree',
+  name: 'ITree',
   props: treeProps,
   emits: [],
   setup(props: TreeProps, ctx) {
@@ -22,44 +22,27 @@ export default defineComponent({
     const renderNode = (item: TreeItem) => {
       return (
         <div
-          class={['devui-tree-node', item.open && 'devui-tree-node__open']}
           style={{ paddingLeft: `${24 * (item.level - 1)}px` }}
         >
-          <div class="devui-tree-node__content">
-            <div class="devui-tree-node__content--value-wrapper">
-              {
-                item.children
-                  ? item.open
-                    ? <IconOpen class="mr-xs" onClick={() => toggle(item)} /> // 给节点绑定点击事件
-                    : <IconClose class="mr-xs" onClick={() => toggle(item)} /> // 给节点绑定点击事件
-                  : <Indent />
-              }
-              <span class="devui-tree-node__title">{ item.label }</span>
-            </div>
+          <div >
+            {
+              item.children
+                ? item.open
+                  ? <IconOpen onClick={() => toggle(item)} /> // 给节点绑定点击事件
+                  : <IconClose onClick={() => toggle(item)} /> // 给节点绑定点击事件
+                : <Indent />
+            }
+            <span >{item.label}</span>
           </div>
+
         </div>
       )
-    }    
-
-    const renderTree = (tree: TreeData): JSX.Element[] => {
-      return tree.map(item => {
-        if (!item.children) {
-          return renderNode(item)
-        } else {
-          return (
-            <>
-              {renderNode(item)}
-              {renderTree(item.children)}
-            </>
-          )
-        }
-      })
     }
 
     return () => {
       return (
-        <div class="devui-tree">
-          { openedData.value.map((item: TreeItem) => renderNode(item)) }
+        <div >
+          {openedData.value.map((item: TreeItem) => renderNode(item))}
         </div>
       )
     }

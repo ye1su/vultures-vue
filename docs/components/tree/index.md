@@ -4,7 +4,7 @@
 
 ```vue
 <template>
-  <d-tree :data="data"></d-tree>
+  <i-tree :data="data"></i-tree>
 </template>
 
 <script lang="ts">

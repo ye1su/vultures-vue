@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import Tree from '../iuui/tree'
+import Input from '../iuui/input'
 
-createApp(App).use(Tree).mount('#app')
+createApp(App).use(Input).mount('#app')
 
