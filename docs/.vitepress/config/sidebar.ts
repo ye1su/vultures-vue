@@ -7,6 +7,7 @@ export default {
       children: [
         { text: 'Input 输入框', link: '/components/input/' },
         { text: 'Search 搜索框', link: '/components/search/' },
+        { text: 'Search 骨架屏', link: '/components/skeleton/' },
       ]
     },
     {

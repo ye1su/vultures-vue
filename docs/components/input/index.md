@@ -4,11 +4,11 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4 style="padding:8px">
+  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
   <i-input placeholder="Happy to use iuUI"  v-model:modlueValue="modlueValue"></i-input>
-  <h4 style="padding:8px">禁止使用</h4 style="padding:8px">
+  <h4 style="padding:8px">禁止使用</h4 style="padding:8px"></h4>
   <i-input :disabled="true" placeholder="Happy to use iuUI"></i-input>
-  <h4 style="padding:8px">onChange 事件触发</h4 style="padding:8px">
+  <h4 style="padding:8px">onChange 事件触发</h4 style="padding:8px"></h4>
   <i-input @onHandleChange="getChange" placeholder="Happy to use iuUI" ></i-input>
 </template>
 
@@ -43,4 +43,11 @@ export default defineComponent({
 | v-model|     `string`     |           ''            |                     绑定值                     | 
 |      placeholder      |     `string`     |           --            |            可选，文本框 placeholder            |                 |
 |       disabled        |    `boolean`     |          false          |             可选，文本框是否被禁用             |
+
+### methods
+
+|         参数          |       参数       |          默认           |                      说明                      |   
+| :-------------------: | :--------------: | :---------------------: | :--------------------------------------------: |
+| onChange |     `e`     |          --           |                     事件绑定值                     | 
+
 

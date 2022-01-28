@@ -1,0 +1,18 @@
+.skeItem{
+  // width: 300px;
+  height: 20px;
+  background-color: #e6e8e8;
+  background-image: linear-gradient(90deg, #f2f2f2 25%, #40AE7C 37%, #f2f2f2 63%);
+  background-size: 400% 100%;
+  background-position: 100% 50%;
+  animation: skeleton-loading 1.4s ease infinite;
+  margin: 5px;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

@@ -8,10 +8,10 @@ export default defineComponent({
   emits: ['onHandleChange','update:modlueValue'],
   setup(props:InputProps,ctx){
     const {disabled} = toRefs(props)
-    const classList = ref(['inp'])
+    const classList = ref<string[]>(['inp'])
     disabled.value && classList.value.push('dis')
 
-    const getInfo = ($event:Event) => {
+    const getInfo = ($event:Event) :void => {
 
       ctx.emit('update:modlueValue',($event.target as HTMLInputElement).value)
       ctx.emit('onHandleChange',($event.target as HTMLInputElement).value)
