@@ -1,7 +1,7 @@
 import type { App } from 'vue'
 import Tree from './src/tree'
 
-Tree.install = function(app: App): void {
+Tree.install = function (app: App): void {
   app.component(Tree.name, Tree)
 }
 
@@ -14,4 +14,3 @@ export default {
     app.use(Tree as any)
   }
 }
-

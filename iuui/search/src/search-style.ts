@@ -1,10 +1,9 @@
-
-import type { PropType, ExtractPropTypes} from 'vue'
+import type { PropType, ExtractPropTypes } from 'vue'
 export const searchProps = {
-  onSearch:{
-    type: Function as PropType<(v:string) => void>,
+  onSearch: {
+    type: Function as PropType<(v: string) => void>,
     default: undefined
-  },
-} as const 
+  }
+} as const
 
 export type SearchProps = ExtractPropTypes<typeof searchProps>

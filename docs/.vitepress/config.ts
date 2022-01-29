@@ -1,8 +1,7 @@
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 import sidebar from './config/sidebar'
-import nav from './config/navbar';
-import head from './config/head';
-
+import nav from './config/navbar'
+import head from './config/head'
 
 const config = {
   title: 'iuUI',
@@ -11,8 +10,7 @@ const config = {
   themeConfig: {
     sidebar,
     nav,
-    logo: '../../assets/iu.svg',
-    
+    logo: '../../assets/iu.svg'
   },
   markdown: {
     config: (md) => {

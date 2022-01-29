@@ -6,12 +6,12 @@ export interface TreeItem {
   [key: string]: any
 }
 
-export type TreeData = Array<TreeItem>;
+export type TreeData = Array<TreeItem>
 
 export const treeProps = {
   data: {
     type: Array as PropType<TreeData>,
-    default: () => [],
+    default: () => []
   }
 } as const
 

@@ -1,4 +1,3 @@
-
 export default {
   '/': [
     { text: '快速开始', link: '/' },
@@ -7,18 +6,15 @@ export default {
       children: [
         { text: 'Input 输入框', link: '/components/input/' },
         { text: 'Search 搜索框', link: '/components/search/' },
-        { text: 'Search 骨架屏', link: '/components/skeleton/' },
+        { text: 'Search 骨架屏', link: '/components/skeleton/' }
       ]
     },
     {
-      text: '反馈',
+      text: '反馈'
     },
     {
       text: '数据',
-      children: [
-        { text: 'Tree 树', link: '/components/tree/' },
-      ]
-    },
-
+      children: [{ text: 'Tree 树', link: '/components/tree/' }]
+    }
   ]
 }

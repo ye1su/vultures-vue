@@ -1,17 +1,13 @@
-
-
 <template>
   <h1>iuUI</h1>
-  <i-input @onHandleChange="getChange"></i-input>
+  <i-input @onHandleChange="getChange" />
 </template>
 
 <script setup lang="ts">
-const getChange = (e:Event):void => {
-  console.log(e);
-  
+const getChange = (e: Event): void => {
+  console.log(e)
 }
 </script>
-
 
 <style scoped>
 a {

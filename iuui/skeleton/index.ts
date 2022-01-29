@@ -1,7 +1,7 @@
 import type { App } from 'vue'
 import Skeleton from './src/skeleton'
 
-Skeleton.install = function(app: App): void {
+Skeleton.install = function (app: App): void {
   app.component(Skeleton.name, Skeleton)
 }
 
@@ -13,4 +13,3 @@ export default {
     app.use(Skeleton as any)
   }
 }
-

@@ -1,7 +1,7 @@
 import type { App } from 'vue'
 import Input from './src/input'
 
-Input.install = function(app: App): void {
+Input.install = function (app: App): void {
   app.component(Input.name, Input)
 }
 
@@ -14,4 +14,3 @@ export default {
     app.use(Input as any)
   }
 }
-

@@ -1,7 +1,7 @@
 import type { App } from 'vue'
 import Search from './src/search'
 
-Search.install = function(app: App): void {
+Search.install = function (app: App): void {
   app.component(Search.name, Search)
 }
 
@@ -14,4 +14,3 @@ export default {
     app.use(Search as any)
   }
 }
-

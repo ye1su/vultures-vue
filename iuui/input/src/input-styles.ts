@@ -1,26 +1,26 @@
-import { PropType,ExtractPropTypes } from "vue";
+import { PropType, ExtractPropTypes } from 'vue'
 
 export const inputProps = {
-  placeholder:{
+  placeholder: {
     type: String,
-    default:undefined
+    default: undefined
   },
-  disabled:{
-    type:Boolean,
-    default:false
+  disabled: {
+    type: Boolean,
+    default: false
   },
-  modlueValue:{
-    type:String,
-    default:'',
+  modlueValue: {
+    type: String,
+    default: ''
   },
-  onHandleChange:{
-    type: Function as PropType< (v: string) => void >,
-    default:undefined
+  onHandleChange: {
+    type: Function as PropType<(v: string) => void>,
+    default: undefined
   },
-  'update:modlueValue':{
-    type: Function as PropType< (v: string) => void >,
-    default:undefined
+  'update:modlueValue': {
+    type: Function as PropType<(v: string) => void>,
+    default: undefined
   }
-} as const 
+} as const
 
 export type InputProps = ExtractPropTypes<typeof inputProps>
