@@ -38,9 +38,9 @@ export default defineComponent({
 ### API
 
 |    参数     |   类型    | 默认  |           说明           |
-| :---------: | :-------: | :---: | :----------------------: | --- |
+| :---------: | :-------: | :---: | :----------------------: |
 |   v-model   | `string`  |  ''   |          绑定值          |
-| placeholder | `string`  |  --   | 可选，文本框 placeholder |     |
+| placeholder | `string`  |  --   | 可选，文本框 placeholder |    
 |  disabled   | `boolean` | false |  可选，文本框是否被禁用  |
 
 ### methods
