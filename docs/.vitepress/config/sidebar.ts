@@ -4,6 +4,7 @@ export default {
     {
       text: '通用',
       children: [
+        { text: 'Button 按钮', link: '/components/button/' },
         { text: 'Switch 开关', link: '/components/switch/' },
         { text: 'Input 输入框', link: '/components/input/' },
         { text: 'Search 搜索框', link: '/components/search/' },

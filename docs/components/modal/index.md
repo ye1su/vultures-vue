@@ -5,8 +5,16 @@
 ```vue
 <template>
   <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
-  <button @click="openWindow">open the Modal</button>
-  <i-modal v-model="isShow"></i-modal>
+  <i-button content="打开弹窗" @click="openWindow"></i-button>
+  <i-modal v-model="isShow" @onSure="getModal"></i-modal>
+  <h4 style="padding:8px" >插槽用法</h4 style="padding:8px"></h4>
+  <i-button content="打开弹窗" type="streamer" @click="openWindow1"></i-button>
+  <i-modal v-model="isShow1" @onSure="getModal">
+    <template v-slot:title>
+      <h1>Hellow iuui</h1>
+    </template>
+    <i-search></i-search>
+  </i-modal>
 </template>
 
 <script lang="ts">
@@ -15,12 +23,22 @@ import { defineComponent, ref } from 'vue'
 export default defineComponent({
   setup() {
     let isShow = ref(false)
+    let isShow1 = ref(false)
     const openWindow = () =>{
       isShow.value = true
     }
+    const openWindow1 = () =>{
+      isShow1.value = true
+    }
+    const getModal = () =>{
+      alert('happy to use iuui')
+    }
     return {
       openWindow,
-      isShow
+      openWindow1,
+      isShow,
+      isShow1,
+      getModal
     }
   }
 })
@@ -29,8 +47,14 @@ export default defineComponent({
 
 :::
 
+### API
+
+|    参数     |   类型    | 默认  |           说明           |
+| :---------: | :-------: | :---: | :----------------------: |
+|   v-model   | `boolean`  |  ''   |        显示/隐藏          |
+
 ### methods
 
 |  参数   | 参数 | 默认 |    说明    |
 | :-----: | :--: | :--: | :--------: |
-| onClick | `e`  |  --  | 事件绑定值 |
+| onSure |   |  --  | 事件触发后执行的函数 |
