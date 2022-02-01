@@ -2,4 +2,5 @@ build/*.js
 src
 public
 dist
+docs
 .eslintrc.js

@@ -8,6 +8,7 @@ export default {
         { text: 'Switch 开关', link: '/components/switch/' },
         { text: 'Input 输入框', link: '/components/input/' },
         { text: 'Search 搜索框', link: '/components/search/' },
+        { text: 'Ripple 水波纹', link: '/components/ripple/' },
         { text: 'Skeleton 骨架屏', link: '/components/skeleton/' }
       ]
     },
