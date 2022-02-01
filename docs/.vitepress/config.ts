@@ -4,6 +4,7 @@ import nav from './config/navbar'
 import head from './config/head'
 
 const config = {
+  base:'/iuUI/',
   title: 'iuUI',
   description: 'A VitePress site',
   head,
