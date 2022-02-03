@@ -4,7 +4,7 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >基本用法</h4>
   <i-search @onSearch="getInfo"></i-search>
 </template>
 

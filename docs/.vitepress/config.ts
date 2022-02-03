@@ -11,7 +11,7 @@ const config = {
   themeConfig: {
     sidebar,
     nav,
-    logo: '../logo.svg'
+    logo:'https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png'
   },
   markdown: {
     config: (md) => {

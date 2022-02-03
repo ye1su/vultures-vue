@@ -4,10 +4,10 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >基本用法</h4>
   <i-button content="打开弹窗" @click="openWindow"></i-button>
   <i-modal v-model="isShow" @onSure="getModal"></i-modal>
-  <h4 style="padding:8px" >插槽用法</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >插槽用法</h4>
   <i-button content="打开弹窗" type="streamer" @click="openWindow1"></i-button>
   <i-modal v-model="isShow1" @onSure="getModal">
     <template v-slot:title>

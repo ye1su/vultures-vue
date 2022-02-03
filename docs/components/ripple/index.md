@@ -8,7 +8,7 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >基本用法</h4>
   <div class="ripple-button">
     <div class="ripple-htmlElement" v-ripple="{ color: '#5e7ce0',duration: 0.3 }">HTML元素 中使用 v-ripple</div>
   </div>

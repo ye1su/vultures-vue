@@ -16,11 +16,16 @@ export default {
       text: '反馈',
       children: [
         { text: 'Modal 模态框', link: '/components/modal/' },
+        { text: 'tooltip 阅读提示', link: '/components/tooltip/' },
       ]
     },
     {
       text: '数据',
-      children: [{ text: 'Tree 树', link: '/components/tree/' }]
+      children: [
+        { text: 'Card 卡片', link: '/components/card/' },
+        { text: 'Tree 树', link: '/components/tree/' }
+        
+      ]
     }
   ]
 }

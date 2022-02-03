@@ -1,0 +1,64 @@
+
+
+.devui-card {
+  position: relative;
+  display: block;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.devui-card-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.devui-card-subtitle {
+  display: block;
+  font-size: 14px;
+}
+
+.devui-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.devui-card-avatar {
+  margin-right: 20px;
+}
+
+.devui-card-content {
+  font-size: 14px;
+}
+
+.devui-card-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.devui-card-title + .devui-card-subtitle {
+  margin-top: 10px;
+}
+
+.devui-card-actions-align-end {
+  justify-content: flex-end;
+}
+
+.devui-card-actions-align-spaceBetween {
+  justify-content: space-between;
+}
+
+.devui-card-meta {
+  width: calc(100% + 40px);
+  margin: 0 -20px 20px -20px;
+  height: auto;
+}
+
+.devui-card-meta:first-child {
+  margin-top: -20px;
+}

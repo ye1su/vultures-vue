@@ -4,12 +4,12 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >基本用法</h4>
   <div>{{value}} </div>
   <i-switch v-model="value" @change="getChange" ></i-switch>
-  <h4 style="padding:8px" >自定义颜色</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >自定义颜色</h4>
   <i-switch v-model="value1" color="#1f2f3f"></i-switch>
-  <h4 style="padding:8px" >禁用</h4 style="padding:8px"></h4>
+  <h4 style="padding:8px" >禁用</h4>
   <i-switch v-model="value1" :disabled="true"></i-switch>
 </template>
 
