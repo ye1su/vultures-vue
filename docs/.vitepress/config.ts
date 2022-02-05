@@ -11,10 +11,14 @@ const config = {
     sidebar,
     nav,
 <<<<<<< HEAD
+<<<<<<< HEAD
     logo: '../../assets/iu.svg'
 =======
     logo: '../logo.svg'
 >>>>>>> parent of 022cd16 (add_card_toolist)
+=======
+    logo: '../../assets/iu.svg'
+>>>>>>> 8c0064fe9e45069946d2cff5e53d3c4cd549c09e
   },
   markdown: {
     config: (md) => {
