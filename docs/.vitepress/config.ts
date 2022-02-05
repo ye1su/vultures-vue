@@ -4,14 +4,21 @@ import nav from './config/navbar'
 import head from './config/head'
 
 const config = {
-  base:'/iuui/',
   title: 'iuUI',
   description: 'A VitePress site',
   head,
   themeConfig: {
     sidebar,
     nav,
-    logo:'https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png'
+<<<<<<< HEAD
+<<<<<<< HEAD
+    logo: '../../assets/iu.svg'
+=======
+    logo: '../logo.svg'
+>>>>>>> parent of 022cd16 (add_card_toolist)
+=======
+    logo: '../../assets/iu.svg'
+>>>>>>> 8c0064fe9e45069946d2cff5e53d3c4cd549c09e
   },
   markdown: {
     config: (md) => {

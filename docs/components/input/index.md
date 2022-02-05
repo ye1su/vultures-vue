@@ -4,11 +4,11 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4>
+  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
   <i-input placeholder="Happy to use iuUI"  v-model:modlueValue="modlueValue"></i-input>
-  <h4 style="padding:8px">禁止使用</h4>
+  <h4 style="padding:8px">禁止使用</h4 style="padding:8px"></h4>
   <i-input :disabled="true" placeholder="Happy to use iuUI"></i-input>
-  <h4 style="padding:8px">onChange 事件触发</h4>
+  <h4 style="padding:8px">onChange 事件触发</h4 style="padding:8px"></h4>
   <i-input @onHandleChange="getChange" placeholder="Happy to use iuUI" ></i-input>
 </template>
 
