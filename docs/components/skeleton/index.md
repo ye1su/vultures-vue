@@ -4,9 +4,9 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4>
+  <h4 style="padding:8px" >基本用法</h4 style="padding:8px"></h4>
   <i-skeleton></i-skeleton>
-  <h4 style="padding:8px" >长度和数量可变</h4>
+  <h4 style="padding:8px" >长度和数量可变</h4 style="padding:8px"></h4>
   <i-skeleton :length="500" :num="6"></i-skeleton>
 </template>
 
