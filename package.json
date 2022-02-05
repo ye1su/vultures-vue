@@ -11,9 +11,7 @@
     "register:components": "vitepress-rc",
     "lint": "eslint . --fix --ext .ts,.vue,.js,.tsx ",
     "prettier": "prettier --write .",
-    "prepare": "husky install",
-    "build:components": "node ./iuui-cli/build.js",
-    "build:lib": "yarn build:components && cp package.json build && cp README.md build"
+    "prepare":"husky install"
   },
   "dependencies": {
     "vue": "^3.2.25"

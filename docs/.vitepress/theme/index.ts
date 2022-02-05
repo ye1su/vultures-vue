@@ -7,8 +7,6 @@ import Switch from '../../../iuui/switch'
 import Modal from '../../../iuui/modal'
 import Button from '../../../iuui/button'
 import Ripple from '../../../iuui/ripple'
-import Card from '../../../iuui/card'
-import Tooltip from '../../../iuui/tooltip'
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components.js'
 
@@ -23,8 +21,6 @@ export default {
     app.use(Modal)
     app.use(Button)
     app.use(Ripple)
-    app.use(Card)
-    app.use(Tooltip)
     registerComponents(app)
   }
 }

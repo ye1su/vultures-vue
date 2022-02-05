@@ -4,14 +4,13 @@ import nav from './config/navbar'
 import head from './config/head'
 
 const config = {
-  base:'/iuui/',
   title: 'iuUI',
   description: 'A VitePress site',
   head,
   themeConfig: {
     sidebar,
     nav,
-    logo:'https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png'
+    logo: '../../assets/iu.svg'
   },
   markdown: {
     config: (md) => {

@@ -1,7 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import Input from '../iuui/input'
 
-
-// import MiniVueDevUI from '../build'
-createApp(App).mount('#app')
-
+createApp(App).use(Input).mount('#app')
