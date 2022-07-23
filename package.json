@@ -10,8 +10,7 @@
     "docs:serve": "vitepress serve docs",
     "register:components": "vitepress-rc",
     "lint": "eslint . --fix --ext .ts,.vue,.js,.tsx ",
-    "prettier": "prettier --write .",
-    "prepare":"husky install"
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "vue": "^3.2.25"
