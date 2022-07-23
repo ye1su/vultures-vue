@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 18:33:40
+ * @LastEditTime: 2022-07-23 21:42:38
  * @FilePath: /iuUI/.eslintrc.js
  * @Description: update here
  */
@@ -10,7 +10,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true 
+    node: true
   },
   extends: [
     'eslint:recommended',
@@ -23,11 +23,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module'
   },
-  plugins: [
-    // "vue",
-
-    '@typescript-eslint'
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
     quotes: [
       'error',
@@ -35,6 +31,7 @@ module.exports = {
       { avoidEscape: true, allowTemplateLiterals: true }
     ],
     'no-undef': 2,
+    '@typescript-eslint/no-var-requires': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/no-multiple-template-root': 'off',
     'vue/script-setup-uses-vars': 'off',

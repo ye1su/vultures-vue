@@ -1,6 +1,14 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 22:46:21
+ * @FilePath: /iuUI/docs/.vitepress/config/sidebar.ts
+ * @Description: update here
+ */
 export default {
   '/': [
-    { text: '快速开始', link: '/' },
+    { text: '使用指南', link: '/' },
     {
       text: '通用',
       children: [

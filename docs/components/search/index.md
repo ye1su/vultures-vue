@@ -1,3 +1,11 @@
+<!--
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 22:35:37
+ * @FilePath: /iuUI/docs/components/search/index.md
+ * @Description: update here
+-->
 # Search 搜素框
 
 :::demo 搜索框
@@ -5,7 +13,7 @@
 ```vue
 <template>
   <h4 style="padding:8px" >基本用法</h4>
-  <i-search @onSearch="getInfo"></i-search>
+  <vul-search @onSearch="getInfo"></vul-search>
 </template>
 
 <script lang="ts">

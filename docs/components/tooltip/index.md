@@ -1,20 +1,28 @@
+<!--
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 22:39:43
+ * @FilePath: /iuUI/docs/components/tooltip/index.md
+ * @Description: update here
+-->
 # Search 阅读提示
 
 :::demo 阅读提示
 
 ```vue
 <template>
-  <h4 style="padding:8px">基本用法</h4>
+  <h4 class="p8">基本用法</h4>
   <div style="margin:60px;">
-    <i-tooltip >hover</i-tooltip>
+    <vul-tooltip >hover</vul-tooltip>
     <br />
-    <i-tooltip tooltip="love iuUI" position="left">
-      <i-search></i-search>
-    </i-tooltip>
+    <vul-tooltip tooltip="love iuUI" position="left">
+      <vul-search></vul-search>
+    </vul-tooltip>
     <br />
-    <i-tooltip tooltip="love iuUI" position="right">hover right</i-tooltip>
+    <vul-tooltip tooltip="love iuUI" position="right">hover right</vul-tooltip>
     <br />
-    <i-tooltip position="bottom">hover bottom</i-tooltip>
+    <vul-tooltip position="bottom">hover bottom</vul-tooltip>
   </div>
 </template>
 
@@ -28,6 +36,11 @@ export default defineComponent({
 ```
 
 :::
+<style>
+.p8{
+  style:"padding:8px"
+}
+</style>
 
 ### methods
 

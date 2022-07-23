@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 18:11:34
+ * @LastEditTime: 2022-07-23 22:19:25
  * @FilePath: /iuUI/docs/components/button/index.md
  * @Description: update here
 -->
@@ -13,19 +13,24 @@
 ```vue
 <template>
   <div>
-  <h4 style="padding:8px" >基本用法</h4>
-  <Vul-button></Vul-button>
-  <h4 style="padding:8px" >霓虹灯按钮</h4>
-  <Vul-button type="neno"></Vul-button>
-  <h4 style="padding:8px" >渐变按钮</h4>
-  <Vul-button type="fradual"></Vul-button>
-  <h4 style="padding:8px" >流光按钮</h4>
-  <Vul-button type="streamer"></Vul-button>
-  <h4 style="padding:8px" >弹跳按钮</h4>
-  <Vul-button type="bounce"></Vul-button>
+  <h4 class="p8">基本用法</h4>
+    <vul-button></vul-button>
+    <h4c lass="p8" >霓虹灯按钮</h4c>
+    <vul-button type="neno"></vul-button>
+    <h4 class="p8" >渐变按钮</h4>
+    <vul-button type="fradual"></vul-button>
+    <h4 class="p8" >流光按钮</h4>
+    <vul-button type="streamer"></vul-button>
+    <h4 class="p8" >弹跳按钮</h4>
+    <vul-button type="bounce"></vul-button>
   </div>
 </template>
+<style>
+.p8{
+  style:"padding:8px"
+}
 
+</style>
 
 ```
 
@@ -36,4 +41,4 @@
 |    参数     |   类型    | 默认  |           说明           |
 | :---------: | :-------: | :---: | :----------------------: |
 |   type   | `string`  |  'default'   |   default/neno/fradual/streamer/bounce |
-|   content   | `string`  |  'BUTTON'   |   按钮内容 |
+|   content   | `string`  |  'BUTTON'   |   按钮内容   |

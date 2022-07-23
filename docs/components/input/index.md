@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 18:12:04
+ * @LastEditTime: 2022-07-23 22:25:31
  * @FilePath: /iuUI/docs/components/input/index.md
  * @Description: update here
 -->
@@ -12,13 +12,18 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4>
-  <Vul-input placeholder="Happy to use iuUI"  v-model:modlueValue="modlueValue"></Vul-input>
-  <h4 style="padding:8px">禁止使用</h4>
-  <i-input :disabled="true" placeholder="Happy to use iuUI"></i-input>
-  <h4 style="padding:8px">onChange 事件触发</h4>
-  <i-input @onHandleChange="getChange" placeholder="Happy to use iuUI" ></i-input>
+  <h4 class="p8" >基本用法</h4>
+  <vul-input placeholder="Happy to use iuUI"  v-model:modlueValue="modlueValue"></vul-input>
+  <h4 class="p8">禁止使用</h4>
+  <vul-input :disabled="true" placeholder="Happy to use iuUI"></vul-input>
+  <h4 class="p8">onChange 事件触发</h4>
+  <vul-input @onHandleChange="getChange" placeholder="Happy to use iuUI" ></vul-input>
 </template>
+<style scope>
+.p8{
+  style:"padding:8px"
+}
+</style>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'

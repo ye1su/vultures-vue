@@ -4,17 +4,17 @@
 
 ```vue
 <template>
-  <h4 style="padding:8px" >基本用法</h4>
-  <i-button content="打开弹窗" @click="openWindow"></i-button>
-  <i-modal v-model="isShow" @onSure="getModal"></i-modal>
-  <h4 style="padding:8px" >插槽用法</h4>
-  <i-button content="打开弹窗" type="streamer" @click="openWindow1"></i-button>
-  <i-modal v-model="isShow1" @onSure="getModal">
+  <h4 class="p8" >基本用法</h4>
+  <vul-button content="打开弹窗" @click="openWindow"></vul-button>
+  <vul-modal v-model="isShow" @onSure="getModal"></vul-modal>
+  <h4 class="p8" >插槽用法</h4>
+  <vul-button content="打开弹窗" type="streamer" @click="openWindow1"></vul-button>
+  <vul-modal v-model="isShow1" @onSure="getModal">
     <template v-slot:title>
       <h1>Hellow iuui</h1>
     </template>
-    <i-search></i-search>
-  </i-modal>
+    <vul-search></vul-search>
+  </vul-modal>
 </template>
 
 <script lang="ts">
@@ -43,6 +43,12 @@ export default defineComponent({
   }
 })
 </script>
+<style scope>
+.p8{
+  style:"padding:8px"
+}
+</style>
+
 ```
 
 :::

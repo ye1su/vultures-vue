@@ -2,18 +2,14 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 17:52:58
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 18:05:46
+ * @LastEditTime: 2022-07-23 21:57:12
  * @FilePath: /iuUI/packages/index.ts
  * @Description: update here
  */
 
 import { App, Plugin } from 'vue';
-import  ButtonPlugin  from './button';
+import loadInstallPlugin from './base-components'
 
-const loadInstallPlugin = (app: App) => {
-  ButtonPlugin.install?.(app);
-
-}
 
 const VulPlugin: Plugin = {
   install(app: App) {
@@ -23,4 +19,4 @@ const VulPlugin: Plugin = {
 
 export default VulPlugin;
 
-export * from './button';
+export * from './vul-base/button';

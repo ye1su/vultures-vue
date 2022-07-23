@@ -4,7 +4,7 @@
 
 ```vue
 <template>
-  <i-tree :data="data"></i-tree>
+  <vul-tree :data="data"></vul-tree>
 </template>
 
 <script lang="ts">

@@ -1,17 +1,24 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 22:02:32
+ * @FilePath: /iuUI/docs/.vitepress/config.ts
+ * @Description: update here
+ */
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 import sidebar from './config/sidebar'
 import nav from './config/navbar'
 import head from './config/head'
 
 const config = {
-  base:'/iuui/',
-  title: 'iuUI',
-  description: 'A VitePress site',
+  base:'/vultures/',
+  title: 'vultures',
+  description: 'vultures组件库',
   head,
   themeConfig: {
     sidebar,
     nav,
-    logo:'https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png'
   },
   markdown: {
     config: (md) => {

@@ -12,9 +12,9 @@
 
 ```vue
 <template>
-  <Vul-card class="i-card">
+  <vul-card class="i-card">
     <template #cardAvatar>
-      <img src="https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png" ></img>
+      <span>pic</span>
     </template>
     <template #cardTitle>
       IUUI Course
@@ -30,7 +30,7 @@
         happy to use iuui
       </div>
     </template>
-  </Vul-card>
+  </vul-card>
 </template>
 <style lang="scss">
 .card-demo-icon {
@@ -82,9 +82,9 @@
 ```vue
 
 <template>
-  <i-card class="i-card" :src="'https://devui.design/components/assets/image1.png'">
+  <vul-card class="i-card" :src="'https://devui.design/components/assets/image1.png'">
     <template #cardAvatar>
-      <img src="https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png" ></img>
+      <span>pic</span>
     </template>
     <template #cardTitle>
       IUUI Course
@@ -98,7 +98,7 @@
     <template #cardActions>
       happy to use iuUI
     </template>
-  </i-card>
+  </vul-card>
 </template>
 <style lang="scss">
   .icon {
