@@ -1,9 +1,12 @@
 {
-  "name": "vue-iuui",
-  "version": "0.0.0",
+  "name": "vultures-vue",
+  "private": false,
+  "version": "0.0.1",
+  "keywords": ["vultures","vue","vultures-vue"],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts",
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -11,6 +14,16 @@
     "register:components": "vitepress-rc",
     "lint": "eslint . --fix --ext .ts,.vue,.js,.tsx ",
     "prettier": "prettier --write ."
+  },
+  "files": ["lib"],
+  "main": "lib/vultures-vue.umd.js", 
+  "module": "lib/vultures-vue.es.js", 
+  "exports": {
+    "./lib/style.css":"./lib/style.css", 
+    ".":{
+      "import" : "./lib/vultures-vue.es.js",
+      "require": "./lib/vultures-vue.umd.js"
+    }
   },
   "dependencies": {
     "vue": "^3.2.25"
@@ -28,5 +41,5 @@
     "vitepress": "^0.21.6",
     "vitepress-theme-demoblock": "^1.4.2",
     "vue-tsc": "^0.29.8"
-  }
+  }  
 }

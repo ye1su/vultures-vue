@@ -1,7 +1,16 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:33:40
+ * @FilePath: /iuUI/.eslintrc.js
+ * @Description: update here
+ */
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    node: true 
   },
   extends: [
     'eslint:recommended',
