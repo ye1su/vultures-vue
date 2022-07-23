@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:37:06
+ * @LastEditTime: 2022-07-23 23:06:58
  * @FilePath: /iuUI/docs/components/skeleton/index.md
  * @Description: update here
 -->
@@ -17,15 +17,14 @@
   <h4 class="p8" >长度和数量可变</h4>
   <vul-skeleton :length="500" :num="6"></vul-skeleton>
 </template>
-
+<style>
+.p8{
+  padding:8px;
+}
+</style>
 ```
 
 :::
-<style>
-.p8{
-  style:"padding:8px"
-}
-</style>
 
 ### API
 

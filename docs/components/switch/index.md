@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:38:38
+ * @LastEditTime: 2022-07-23 23:07:06
  * @FilePath: /iuUI/docs/components/switch/index.md
  * @Description: update here
 -->
@@ -38,15 +38,14 @@ export default defineComponent({
   }
 })
 </script>
+<style>
+.p8{
+  padding:8px;
+}
+</style>
 ```
 
 :::
-
-<style>
-.p8{
-  style:"padding:8px"
-}
-</style>
 
 ### API
 

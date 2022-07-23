@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:25:31
+ * @LastEditTime: 2022-07-23 22:56:46
  * @FilePath: /iuUI/docs/components/input/index.md
  * @Description: update here
 -->
@@ -21,7 +21,7 @@
 </template>
 <style scope>
 .p8{
-  style:"padding:8px"
+  padding:8px;
 }
 </style>
 

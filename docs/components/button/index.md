@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:19:25
+ * @LastEditTime: 2022-07-23 22:56:33
  * @FilePath: /iuUI/docs/components/button/index.md
  * @Description: update here
 -->
@@ -27,7 +27,7 @@
 </template>
 <style>
 .p8{
-  style:"padding:8px"
+  padding:8px;
 }
 
 </style>

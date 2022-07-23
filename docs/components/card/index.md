@@ -16,19 +16,13 @@
     <template #cardAvatar>
       <span>pic</span>
     </template>
-    <template #cardTitle>
-      IUUI Course
-    </template>
+    <template #cardTitle> IUUI Course </template>
     <template #cardSubtitle class="card-demo-icon">
       <span>IUUI</span>
     </template>
-    <template #cardContent>
-      IUUI is a free open-source
-    </template>
+    <template #cardContent> IUUI is a free open-source </template>
     <template #cardActions>
-      <div class="card-block">
-        happy to use iuui
-      </div>
+      <div class="card-block">happy to use iuui</div>
     </template>
   </vul-card>
 </template>
@@ -44,7 +38,7 @@
 }
 .card-block {
   margin-right: 16px;
-  i{
+  i {
     cursor: pointer;
     font-size: 16px;
     margin-right: 8px;
@@ -56,11 +50,10 @@
 }
 .i-card {
   cursor: pointer;
-  transition:
-    box-shadow .3s cubic-bezier(.645,.045,.355,1),
-    transform .3s cubic-bezier(.645,.045,.355,1);
+  transition: box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), transform
+      0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   &:hover {
-    box-shadow: 0 4px 16px 0 rgba(0,0,0,.1);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
   }
 }
@@ -80,72 +73,63 @@
 :::demo
 
 ```vue
-
 <template>
-  <vul-card class="i-card" :src="'https://devui.design/components/assets/image1.png'">
+  <vul-card
+    class="i-card"
+    :src="'https://devui.design/components/assets/image1.png'"
+  >
     <template #cardAvatar>
       <span>pic</span>
     </template>
-    <template #cardTitle>
-      IUUI Course
-    </template>
+    <template #cardTitle> IUUI Course </template>
     <template #cardSubtitle class="card-demo-icon">
-     <span>IUUI</span>
+      <span>IUUI</span>
     </template>
-    <template #cardContent>
-      IUUI is a free open-source
-    </template>
-    <template #cardActions>
-      happy to use iuUI
-    </template>
+    <template #cardContent> IUUI is a free open-source </template>
+    <template #cardActions> happy to use iuUI </template>
   </vul-card>
 </template>
 <style lang="scss">
-  .icon {
+.icon {
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.icon + span {
+  vertical-align: middle;
+}
+.card-block {
+  margin-right: 16px;
+  i {
     cursor: pointer;
     font-size: 16px;
     margin-right: 8px;
     vertical-align: middle;
   }
-  .icon + span {
+  i + span {
     vertical-align: middle;
   }
-  .card-block {
-    margin-right: 16px;
-    i{
-      cursor: pointer;
-      font-size: 16px;
-      margin-right: 8px;
-      vertical-align: middle;
-    }
-    i + span {
-      vertical-align: middle;
-    }
+}
+.i-card {
+  cursor: pointer;
+  transition: box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), transform
+      0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  &:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
   }
-  .i-card {
-    cursor: pointer;
-    transition:
-      box-shadow .3s cubic-bezier(.645,.045,.355,1),
-      transform .3s cubic-bezier(.645,.045,.355,1);
-    &:hover {
-      box-shadow: 0 4px 16px 0 rgba(0,0,0,.1);
-      transform: translateY(-5px);
-    }
-  }
-  .card-container {
-    width: 350px;
-  }
-  img {
-    max-width: none;
-  }
-  .action-text {
-    color: #8a8e99;
-  }
+}
+.card-container {
+  width: 350px;
+}
+img {
+  max-width: none;
+}
+.action-text {
+  color: #8a8e99;
+}
 </style>
-
-```
-
-:::
 
 <style lang="scss">
 .card-demo-icon {
@@ -159,7 +143,7 @@
 }
 .card-block {
   margin-right: 16px;
-  i{
+  i {
     cursor: pointer;
     font-size: 16px;
     margin-right: 8px;
@@ -198,20 +182,17 @@ img {
   }
 }
 </style>
+```
+
+:::
 
 ### 参数
 
-|    参数     |   类型   |   默认    | 说明                     | 跳转 Demo                         |
-| :---------: | :------: | :-------: | :----------------------- | -------------------------------- |
-|    src     | `string` |    ''    | 可选，图片路径          | [使用图片](#使用图片)             |
-|    align     | `'start'\|'end'\|'spaceBetween'\|` |  `'start'` | 可选，操作区域对齐方式，分别对应起始对齐，尾部对齐，拉伸对齐 | [自定义区域](#自定义区域) |
+| 参数 | 类型 | 默认 | 说明 | 跳转 Demo |
+| :-: | :-: | :-: | :-- | --- |
+| src | `string` | '' | 可选，图片路径 | [使用图片](#使用图片) |
+| align | `'start'\|'end'\|'spaceBetween'\|` | `'start'` | 可选，操作区域对齐方式，分别对应起始对齐，尾部对齐，拉伸对齐 | [自定义区域](#自定义区域) |
 
 ### 插槽
 
-两种方式使用：`v-slot:cardTitle` 或者具名插槽`#cardTitle`
-|    名称     |   描述   |
-| :---------: | :------: |
-|    cardAvatar     | 头像区域，用作头像等图片展示 |
-|    cardTitle     | 卡片的主要内容描述，一般定义为卡片名称 |
-|    cardSubtitle     | 对标题的补充，可包含标签等信息 |
-|    cardActions     | 决策作用，可以包含操作文本或者操作图标 |
+两种方式使用：`v-slot:cardTitle` 或者具名插槽`#cardTitle` | 名称 | 描述 | | :---------: | :------: | | cardAvatar | 头像区域，用作头像等图片展示 | | cardTitle | 卡片的主要内容描述，一般定义为卡片名称 | | cardSubtitle | 对标题的补充，可包含标签等信息 | | cardActions | 决策作用，可以包含操作文本或者操作图标 |

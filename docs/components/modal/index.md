@@ -45,7 +45,7 @@ export default defineComponent({
 </script>
 <style scope>
 .p8{
-  style:"padding:8px"
+  padding:8px;
 }
 </style>
 

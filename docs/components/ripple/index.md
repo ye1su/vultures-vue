@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:34:52
+ * @LastEditTime: 2022-07-23 23:06:46
  * @FilePath: /iuUI/docs/components/ripple/index.md
  * @Description: update here
 -->
@@ -56,9 +56,6 @@
     </ul>
   </div>
 </template>
-```
-
-:::
 
 <style>
 .ripple-htmlElement {
@@ -79,6 +76,9 @@ ul,li{
   list-style:none;
 }
 </style>
+```
+
+:::
 
 ### API
 
