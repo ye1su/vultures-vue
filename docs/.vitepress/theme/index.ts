@@ -1,14 +1,22 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 17:47:11
+ * @FilePath: /iuUI/docs/.vitepress/theme/index.ts
+ * @Description: update here
+ */
 import Theme from 'vitepress/dist/client/theme-default'
-import Tree from '../../../iuui/tree'
-import Search from '../../../iuui/search'
-import Input from '../../../iuui/input'
-import Skeleton from '../../../iuui/skeleton'
-import Switch from '../../../iuui/switch'
-import Modal from '../../../iuui/modal'
-import Button from '../../../iuui/button'
-import Ripple from '../../../iuui/ripple'
-import Card from '../../../iuui/card'
-import Tooltip from '../../../iuui/tooltip'
+import Tree from '../../../packages/tree'
+import Search from '../../../packages/search'
+import Input from '../../../packages/input'
+import Skeleton from '../../../packages/skeleton'
+import Switch from '../../../packages/switch'
+import Modal from '../../../packages/modal'
+import Button from '../../../packages/button'
+import Ripple from '../../../packages/ripple'
+import Card from '../../../packages/card'
+import Tooltip from '../../../packages/tooltip'
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components.js'
 
