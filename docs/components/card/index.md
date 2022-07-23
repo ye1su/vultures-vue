@@ -6,13 +6,13 @@
 
 基础卡片容器，其中可包含文字，列表，图片，段落，用于概览展示时。
 
-
 ### 基本用法
 
 :::demo
+
 ```vue
 <template>
-  <i-card class="i-card">
+  <Vul-card class="i-card">
     <template #cardAvatar>
       <img src="https://gitee.com/si7578/picbed/raw/master/img/202202031704475.png" ></img>
     </template>
@@ -30,7 +30,7 @@
         happy to use iuui
       </div>
     </template>
-  </i-card>
+  </Vul-card>
 </template>
 <style lang="scss">
 .card-demo-icon {
@@ -72,11 +72,13 @@
 }
 </style>
 ```
+
 :::
 
 ### 使用图片
 
 :::demo
+
 ```vue
 
 <template>
@@ -142,8 +144,8 @@
 </style>
 
 ```
-:::
 
+:::
 
 <style lang="scss">
 .card-demo-icon {
@@ -197,7 +199,6 @@ img {
 }
 </style>
 
-
 ### 参数
 
 |    参数     |   类型   |   默认    | 说明                     | 跳转 Demo                         |
@@ -206,6 +207,7 @@ img {
 |    align     | `'start'\|'end'\|'spaceBetween'\|` |  `'start'` | 可选，操作区域对齐方式，分别对应起始对齐，尾部对齐，拉伸对齐 | [自定义区域](#自定义区域) |
 
 ### 插槽
+
 两种方式使用：`v-slot:cardTitle` 或者具名插槽`#cardTitle`
 |    名称     |   描述   |
 | :---------: | :------: |

@@ -1,9 +1,17 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:07:51
+ * @FilePath: /iuUI/packages/input/src/input.tsx
+ * @Description: update here
+ */
 import { defineComponent, toRefs, ref } from 'vue'
 import './input.scss'
 import { InputProps, inputProps } from './input-styles'
 
 export default defineComponent({
-  name: 'IInput',
+  name: 'VulInput',
   props: inputProps,
   emits: ['onHandleChange', 'update:modlueValue'],
   setup(props: InputProps, ctx) {

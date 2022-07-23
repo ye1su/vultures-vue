@@ -1,3 +1,11 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:10:02
+ * @FilePath: /iuUI/packages/tree/src/tree.tsx
+ * @Description: update here
+ */
 import { defineComponent, toRefs } from 'vue'
 import { treeProps, TreeProps, TreeData, TreeItem } from './tree-types'
 import IconOpen from './components/icon-open'
@@ -6,7 +14,7 @@ import useToggle from './composables/use-toggle'
 import './tree.scss'
 
 export default defineComponent({
-  name: 'ITree',
+  name: 'VulTree',
   props: treeProps,
   emits: [],
   setup(props: TreeProps, ctx) {

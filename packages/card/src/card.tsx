@@ -1,3 +1,11 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:07:28
+ * @FilePath: /iuUI/packages/card/src/card.tsx
+ * @Description: update here
+ */
 import { defineComponent, PropType } from 'vue';
 import './card.scss';
 
@@ -13,7 +21,7 @@ const cardProps = {
 } as const;
 
 export default defineComponent({
-  name: 'ICard',
+  name: 'VulCard',
   props: cardProps,
 
   render () {

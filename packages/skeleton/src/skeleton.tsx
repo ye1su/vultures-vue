@@ -1,10 +1,18 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:09:30
+ * @FilePath: /iuUI/packages/skeleton/src/skeleton.tsx
+ * @Description: update here
+ */
 import { defineComponent, toRefs } from 'vue'
 import { skeletonProps, SkeletonProps } from './skeleton-types'
 import SkeletonItem from './components/skeletonItem'
 import './skeleton.scss'
 
 export default defineComponent({
-  name: 'ISkeleton',
+  name: 'VulSkeleton',
   props: skeletonProps,
   setup(props: SkeletonProps, ctx) {
     const { length, num } = toRefs(props)

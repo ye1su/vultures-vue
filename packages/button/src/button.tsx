@@ -1,3 +1,11 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:06:58
+ * @FilePath: /iuUI/packages/button/src/button.tsx
+ * @Description: update here
+ */
 import { defineComponent } from 'vue'
 import BounceBtn from './components/BounceBtn'
 import GradualBtn from './components/GradualBtn'
@@ -7,7 +15,7 @@ import DefaultBtn from './components/DefaultBtn'
 import { buttonProps } from './button-styles'
 
 export default defineComponent({
-  name: 'IButton',
+  name: 'VulButton',
   props: buttonProps,
   setup(props) {
     const getBtn = () => {

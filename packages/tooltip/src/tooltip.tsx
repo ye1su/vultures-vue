@@ -1,3 +1,11 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:09:50
+ * @FilePath: /iuUI/packages/tooltip/src/tooltip.tsx
+ * @Description: update here
+ */
 import { defineComponent, PropType } from 'vue'
 import './tooltip.scss'
 
@@ -13,7 +21,7 @@ const cardProps = {
 } as const
 
 export default defineComponent({
-  name: 'ITooltip',
+  name: 'VulTooltip',
   props: cardProps,
   setup(props, ctx) {
     console.log(ctx.slots.default())

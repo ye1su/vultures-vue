@@ -1,8 +1,16 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:09:38
+ * @FilePath: /iuUI/packages/switch/src/switch.tsx
+ * @Description: update here
+ */
 import { computed, defineComponent,ref } from 'vue'
 import {switchProps,switchClss} from './switch-types'
 import './switch.scss'
 export default defineComponent({
-  name: 'ISwitch',
+  name: 'VulSwitch',
   props: switchProps,
   emits:['update:modelValue','change'],
   setup(props,ctx){

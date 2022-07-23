@@ -1,9 +1,17 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:08:01
+ * @FilePath: /iuUI/packages/modal/src/modal.tsx
+ * @Description: update here
+ */
 import { defineComponent, ref } from 'vue'
 import { modalProps } from './modal-style'
 import useModal from './composables/modal-common'
 import './modal.scss'
 export default defineComponent({
-  name: 'IModal',
+  name: 'VulModal',
   props: modalProps,
   emits: ['update:modelValue','onSure'],
   setup(props, ctx) {

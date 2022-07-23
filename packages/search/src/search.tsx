@@ -1,3 +1,11 @@
+/*
+ * @Author: sifengyuan
+ * @Date: 2022-07-23 10:50:48
+ * @LastEditors: sifengyuan
+ * @LastEditTime: 2022-07-23 18:09:15
+ * @FilePath: /iuUI/packages/search/src/search.tsx
+ * @Description: update here
+ */
 import { defineComponent, ref } from 'vue'
 import { Input } from '../../input/index'
 import IconSearch from './components/icon-search'
@@ -5,7 +13,7 @@ import { searchProps } from './search-style'
 import './search.scss'
 
 export default defineComponent({
-  name: 'ISearch',
+  name: 'VulSearch',
   props: searchProps,
   emits: ['onSearch'],
   setup(prop, ctx) {
