@@ -2,12 +2,12 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:46:21
- * @FilePath: /iuUI/docs/.vitepress/config/sidebar.ts
+ * @LastEditTime: 2022-07-24 22:25:42
+ * @FilePath: /vultures/docs/.vitepress/config/sidebar.ts
  * @Description: update here
  */
 export default {
-  '/': [
+  '/components/': [
     { text: '使用指南', link: '/' },
     {
       text: '通用',
@@ -35,5 +35,14 @@ export default {
         
       ]
     }
+  ],
+  '/graph/': [
+    {
+      text: 'echats',
+      children: [
+        { text: 'nar 柱状图', link: '/graph/bubbles/' },
+      ]
+    },
   ]
 }
+

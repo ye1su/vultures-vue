@@ -1,11 +1,15 @@
-<!--
- * @Author: sifengyuan
- * @Date: 2022-07-23 10:50:48
- * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:48:47
- * @FilePath: /iuUI/docs/index.md
- * @Description: update here
--->
+---
+home: true
+heroImage: /assets/logo.png
+heroAlt: vultures image
+heroText: hello vultures
+tagline: vultures组件库
+actionText: 进入
+actionLink: /components/
+
+footer: MIT Licensed | Copyright © 2022-vultures of coffe
+---
+
 # 使用指南
 
 #

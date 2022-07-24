@@ -20,6 +20,9 @@ const config = {
     sidebar,
     nav,
   },
+  socialLinks: [
+    { icon: 'github', link: 'https://github.com/InternationSi/vultures' }
+  ],
   markdown: {
     config: (md) => {
       // 这里可以使用 markdown-it 插件，vitepress-theme-demoblock就是基于此开发的
