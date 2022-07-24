@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/logo.png
+heroImage: /logo.png
 heroAlt: vultures image
 heroText: hello vultures
 tagline: vultures组件库

@@ -2,12 +2,12 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-24 21:03:27
+ * @LastEditTime: 2022-07-24 23:02:16
  * @FilePath: /vultures/docs/.vitepress/config/head.ts
  * @Description: update here
  */
 const head = [
-  ['link', { rel: 'icon', type: 'image/png', href: '/asset/logo.png' }],
+  // ['link', { rel: 'icon', type: 'image/png', href: '/asset/logo.png' }],
 ]
 
 export default head

@@ -2,13 +2,12 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-24 22:25:42
+ * @LastEditTime: 2022-07-24 23:03:08
  * @FilePath: /vultures/docs/.vitepress/config/sidebar.ts
  * @Description: update here
  */
 export default {
   '/components/': [
-    { text: '使用指南', link: '/' },
     {
       text: '通用',
       children: [
