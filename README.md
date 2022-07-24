@@ -2,16 +2,15 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 10:50:48
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-23 22:53:34
- * @FilePath: /iuUI/README.md
+ * @LastEditTime: 2022-07-24 22:58:24
+ * @FilePath: /vultures/README.md
  * @Description: update here
 -->
 # vultures-vue
 
 ## 文档地址
 
-```http://si7578.gitee.io/iuui```
-
+[组件库文档 ](http://si7578.gitee.io/vultures/)
 ### 组件库是基于vue3搭建的组件库
 
 - 基础组件库

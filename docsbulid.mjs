@@ -6,4 +6,4 @@ await $`pwd`
 await $`git init`
 await $`git add .`
 await $`git commit -m page`
-await $`git push https://gitee.com/si7578/iuUI.git master`
+await $`git push -f https://gitee.com/si7578/vultures.git master`
