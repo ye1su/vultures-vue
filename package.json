@@ -1,7 +1,8 @@
 {
   "name": "vultures-vue",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "license": "MIT",
   "keywords": [
     "vultures",
     "vue",
@@ -10,7 +11,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts",
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -22,6 +22,11 @@
   "files": [
     "lib"
   ],
+  "homepage": "http://si7578.gitee.io/vultures/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InternationSi/vultures.git"
+  },
   "main": "lib/vultures-vue.umd.js",
   "module": "lib/vultures-vue.es.js",
   "exports": {
