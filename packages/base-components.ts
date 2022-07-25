@@ -2,7 +2,7 @@
  * @Author: sifengyuan
  * @Date: 2022-07-23 21:53:26
  * @LastEditors: sifengyuan
- * @LastEditTime: 2022-07-24 21:19:12
+ * @LastEditTime: 2022-07-25 22:04:49
  * @FilePath: /vultures/packages/base-components.ts
  * @Description: update here
  */
@@ -18,7 +18,7 @@ import SwitchPlugin from './vul-base/switch'
 import TooltipPlugin from './vul-base/tooltip'
 import TreePlugin from './vul-base/tree'
 
-const loadInstallPlugin = (app: App) => {
+const loadInstaBasellPlugin = (app: App) => {
   ButtonPlugin.install?.(app)
   CardPlugin.install?.(app)
   InputPlugin.install?.(app)
@@ -31,4 +31,4 @@ const loadInstallPlugin = (app: App) => {
   TreePlugin.install?.(app)
 }
 
-export default loadInstallPlugin
+export default loadInstaBasellPlugin
