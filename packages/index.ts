@@ -7,16 +7,13 @@
  * @Description: update here
  */
 
-import { App, Plugin } from 'vue';
+import { App, Plugin } from 'vue'
 import loadInstaBasellPlugin from './base-components'
-import loadInstallGraphPlugin from './graph-conponents'
-
 
 const VulPlugin: Plugin = {
   install(app: App) {
     loadInstaBasellPlugin(app)
-    loadInstallGraphPlugin(app)
-  },
-};
+  }
+}
 
-export default VulPlugin;
+export default VulPlugin

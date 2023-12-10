@@ -7,7 +7,7 @@
  * @Description: update here
  */
 import { App } from 'vue'
-import ButtonPlugin from './vul-base/button'
+import ButtonPlugin from './Basic/button'
 
 
 

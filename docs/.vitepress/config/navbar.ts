@@ -7,8 +7,7 @@
  * @Description: update here
  */
 const nav = [
-  { text: '基础组件', link: '/components/ ' ,activeMatch: '/components/'},
-  { text: '图类组件', link: '/graph/',activeMatch: '/graph/' },
+  { text: '基础组件', link: '/components/ ', activeMatch: '/components/' }
   // { text: '仓库地址', link: 'https://github.com/InternationSi/vultures' },
 ]
 

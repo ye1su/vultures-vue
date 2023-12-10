@@ -9,12 +9,8 @@
 
 // 基础组件
 import Theme from 'vitepress/dist/client/theme-default'
-import Button from '../../../packages/vul-base/button'
+import Button from '../../../packages/Basic/button/index.js'
 
-
-// 图组件
-import EchartColumnar from '../../../packages/vul-graph/echart-columnar'
-import ER from '../../../packages/vul-graph/er-relation'
 // 导入包
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components.js'
@@ -24,8 +20,6 @@ export default {
   enhanceApp({ app }) {
 
     app.use(Button)
-    app.use(EchartColumnar)
-    app.use(ER)
     registerComponents(app)
   },
 }
